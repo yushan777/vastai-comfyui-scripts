@@ -40,6 +40,6 @@ wget https://huggingface.co/openai/clip-vit-large-patch14/resolve/main/model.saf
 mv model.safetensors clip-vit-large-patch14.safetensors
 
 # CLIP MODEL 2 
-https://huggingface.co/laion/CLIP-ViT-bigG-14-laion2B-39B-b160k/resolve/main/open_clip_pytorch_model.safetensors
+wget https://huggingface.co/laion/CLIP-ViT-bigG-14-laion2B-39B-b160k/resolve/main/open_clip_pytorch_model.safetensors
 # rename 
 mv open_clip_pytorch_model.safetensors CLIP-ViT-bigG-14-laion2B-39B-b160k.safetensors
