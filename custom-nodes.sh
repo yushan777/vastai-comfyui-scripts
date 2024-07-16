@@ -21,3 +21,16 @@ do
 done
 
 echo "All custom nodes have been cloned."
+
+
+cd "/workspace/ComfyUI/models/checkpoints"
+# get JuggernautXL V9 Model
+https://civitai.com/api/download/models/348913
+
+# get SUPIR Models
+wget https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0F_fp16.safetensors
+wget https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0Q_fp16.safetensors
+
+# get clip vision models
+cd "/workspace/ComfyUI/models/clip-vision"
+.....
