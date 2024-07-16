@@ -25,7 +25,7 @@ echo "All custom nodes have been cloned."
 
 cd "/workspace/ComfyUI/models/checkpoints"
 # get JuggernautXL V9 Model
-https://civitai.com/api/download/models/348913
+wget https://civitai.com/api/download/models/348913
 
 # get SUPIR Models
 wget https://huggingface.co/Kijai/SUPIR_pruned/resolve/main/SUPIR-v0F_fp16.safetensors
